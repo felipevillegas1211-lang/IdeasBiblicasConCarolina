@@ -756,16 +756,22 @@ img { max-width: 100%; display: block; }
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--color-white);
   text-decoration: none;
-  transition: background 0.2s ease;
+  transition: transform 0.15s ease, filter 0.15s ease;
 }
 
-.footer-social a:hover { background: var(--color-gold); color: var(--color-navy); }
+.footer-social a:hover { transform: translateY(-3px); filter: brightness(1.1); }
+
+.footer-social a.youtube { background: #ff3b30; }
+.footer-social a.facebook { background: #1877f2; }
+.footer-social a.instagram {
+  background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.footer-social a.tiktok { background: #010101; }
 
 .footer-social svg { width: 20px; height: 20px; }
 
