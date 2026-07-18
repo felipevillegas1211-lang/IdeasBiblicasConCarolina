@@ -170,6 +170,15 @@ img { max-width: 100%; display: block; }
 .btn--facebook { background: #1877f2; color: var(--color-white); }
 .btn--facebook:hover { background: #1466d1; }
 
+.btn--instagram {
+  background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: var(--color-white);
+}
+.btn--instagram:hover { filter: brightness(1.08); }
+
+.btn--tiktok { background: #010101; color: var(--color-white); }
+.btn--tiktok:hover { background: #232323; }
+
 .btn--block { width: 100%; }
 
 .btn-row {
