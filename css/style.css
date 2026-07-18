@@ -553,6 +553,8 @@ img { max-width: 100%; display: block; }
 
 .social-card.youtube .icon-circle { background: #ff3b30; }
 .social-card.facebook .icon-circle { background: #1877f2; }
+.social-card.instagram .icon-circle { background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+.social-card.tiktok .icon-circle { background: #010101; }
 
 .social-card p { color: var(--color-ink-soft); margin-bottom: 6px; }
 
